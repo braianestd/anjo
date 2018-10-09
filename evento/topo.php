@@ -41,7 +41,7 @@
                     <a class="nav-link " href="evento.php">Eventos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="novedades.php">Novedades</a>
+                    <a class="nav-link " href="registrar.php">Registrar</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="contacto.php">Contactos</a>
