@@ -80,7 +80,7 @@ include_once("topo.php");
                     <i class="ion-ios-calendar-outline"></i>
                     <div class="content">
                         <h5 class="box_title">
-                            DATE
+                            DATA
                         </h5>
                         <p>
                             12-14 february 2018
@@ -97,7 +97,7 @@ include_once("topo.php");
                             location
                         </h5>
                         <p>
-                            Los Angeles, CA.
+                            Rivera, Uy.
                         </p>
                     </div>
                 </div>

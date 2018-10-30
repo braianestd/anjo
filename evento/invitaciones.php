@@ -8,8 +8,8 @@
                 <h2>INFORMACION<br>DE CONTACTO</h2>
             </section>
             <section class="info_items">
-                <p><span class="fa fa-envelope"></span> info.contact@gmail.com</p>
-                <p><span class="fa fa-mobile"></span> +1(585) 902-8665</p>
+                <p><span class="fa fa-envelope"></span> contact@gmail.com</p>
+                <p><span class="fa fa-mobile"></span> (598) 9982-8665</p>
             </section>
         </section>
 

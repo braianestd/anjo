@@ -10,7 +10,7 @@
             <div class="col-12">
                 <div class="inner_cover_content">
                     <h3>
-                       Events
+                       Evento
                     </h3>
                 </div>
             </div>
@@ -18,8 +18,8 @@
 
         <div class="breadcrumbs">
             <ul>
-                <li><a href="#">Home</a>  |   </li>
-                <li><span>Events</span></li>
+                <li><a href="#">Inicio</a>  |   </li>
+                <li><span>Evento</span></li>
             </ul>
         </div>
     </div>
@@ -35,7 +35,7 @@
             <img src="assets/img/events/event1.png" alt="event">
             <div class="event_info">
                 <div class="event_title">
-                    Los Angeles Event
+                    Livramento
                 </div>
                 <div class="speakers">
                     <strong>Speakers</strong>

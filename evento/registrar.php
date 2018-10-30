@@ -112,7 +112,7 @@ Todos los derechos reservados por Braian Ramos.                        </p>
                 <div class="footer_box">
                     <div class="footer_header">
                         <h4 class="footer_title">
-Suscribete!!                    </h4>
+No te pierdas nada!!                   </h4>
                     </div>
                     <div class="footer_box_body">
                         <div class="newsletter_form">

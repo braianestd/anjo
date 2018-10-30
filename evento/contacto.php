@@ -35,7 +35,7 @@
             
             <div class="col-md-12 col-12">
                 <div class="contact_form">
-                <h1 align="center"> Lista de Usuarios </h1>
+                <h1 align="center"> Lista de Usuarios Temportal </h1>
 <div class="widget-box">
           <div class="widget-content nopadding">
             <table class="table table-bordered table-striped">
