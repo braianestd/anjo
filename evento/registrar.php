@@ -1,3 +1,10 @@
+<?php 
+session_start();
+include_once("../../class/Carregar.class.php");
+if(!isset($_SESSION['Usuario'])){
+	header ("Location:/loginuser/loginus.php");
+}	
+?>
 <?php
    include_once("topo.php")
 ?>

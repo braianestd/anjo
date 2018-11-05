@@ -4,8 +4,8 @@ class Usuarios{
 	private $Nome;
 	private $Email;
 	private $Senha;
-	
-	private $tabela;
+	private $Tipo;
+	private $Imagem;
 	private $conexao;
 	//conecta a base de datos da tabela e a tabela que vamos accesar
 	public function __construct(){
@@ -88,6 +88,22 @@ class Usuarios{
 		 return $retUsuar;
 	 }
 	 
+	 public function loginuser(){
+		$sql = "SELECT * FROM $this->tabela where Email='$this->Email' and Senha='$this->Senha' and Tipo='Usuario'";
+		$retorno = mysqli_query($this->conexao, $sql);
+		//separa as colunas como o banco
+		$resultado = mysqli_fetch_assoc($retorno);
+		if($resultado){ 
+			$objeto = new Usuario();
+			$objeto->ID = $resultado['ID'];	
+			
+			$retUsuar = $objeto;
+		}
+		else {
+			$retUsuar = null;
+		}
+		return $retUsuar;
+	}
 	 
 	 public function editar(){
 		 $sql = "UPDATE $this->tabela SET Nome = '$this->Nome',
