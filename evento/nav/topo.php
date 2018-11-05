@@ -7,14 +7,14 @@
     <meta name="author" content="ColorLib">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title> Evento</title>
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/et-line.css" rel="stylesheet">
-    <link href="assets/css/ionicons.min.css" rel="stylesheet">
-    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/et-line.css" rel="stylesheet">
+    <link href="../assets/css/ionicons.min.css" rel="stylesheet">
+    <link href="../assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
+    <link href="../assets/css/main.css" rel="stylesheet">
 </head>
 <body>
 <div class="loader">
@@ -24,7 +24,7 @@
 <header class="header navbar fixed-top navbar-expand-md">
     <div class="container">
         <a class="navbar-brand logo" href="#">
-            <img src="assets/img/logo.png" alt="Evento"/>
+            <img src="../assets/img/logo.png" alt="Evento"/>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="lnr lnr-text-align-right"></span>

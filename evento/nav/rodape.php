@@ -1,0 +1,10 @@
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/popper.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/waypoints.min.js"></script>
+<script src="../assets/js/owl.carousel.min.js"></script>
+<script src="../assets/js/parallax.min.js"></script>
+<script src="../assets/js/jquery.counterup.min.js"></script>
+<script src="../assets/js/jquery.countdown.min.js"></script>
+<script src="../assets/js/wow.min.js"></script>
+<script src="../assets/js/main.js"></script>

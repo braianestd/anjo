@@ -3,7 +3,7 @@ include_once("topo.php");
 ?>
 <section id="home" class="home-cover">
     <div class="cover_slider owl-carousel owl-theme">
-        <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
+        <div class="cover_item" style="background: url(../assets/img/bg/slider.png');">
              <div class="slider_content">
                 <div class="slider-content-inner">
                     <div class="container">
@@ -43,7 +43,7 @@ include_once("topo.php");
                 </div>
             </div>
         </div>
-        <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
+        <div class="cover_item" style="background: url('../assets/img/bg/slider.png');">
             <div class="slider_content">
                 <div class="slider-content-inner">
                     <div class="container">
@@ -134,7 +134,7 @@ include_once("topo.php");
         </div>
     </div>
 </section>
-<section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/bg-img.png');">
+<section class="bg-img pt70 pb70" style="background-image: url('../assets/img/bg/bg-img.png');">
     <div class="overlay_dark"></div>
     <div class="container">
         <div class="row justify-content-center">
@@ -231,7 +231,7 @@ include_once("topo.php");
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s1.png" alt="speaker name">
+                    <img src="../assets/img/speakers/s1.png" alt="speaker name">
                     <div class="info_box">
                         <h5 class="name">Patricia Stone</h5>
                         <p class="position">CEO Company</p>
@@ -242,7 +242,7 @@ include_once("topo.php");
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s2.png" alt="speaker name">
+                    <img src="../assets/img/speakers/s2.png" alt="speaker name">
                     <div class="info_box">
                         <h5 class="name">James Oliver</h5>
                         <p class="position">CEO Company</p>
@@ -254,7 +254,7 @@ include_once("topo.php");
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s3.png" alt="speaker name">
+                    <img src="../assets/img/speakers/s3.png" alt="speaker name">
                     <div class="info_box">
                         <h5 class="name">Carla Banks</h5>
                         <p class="position">CEO Company</p>
@@ -265,7 +265,7 @@ include_once("topo.php");
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s4.png" alt="speaker name">
+                    <img src="../assets/img/speakers/s4.png" alt="speaker name">
                     <div class="info_box">
                         <h5 class="name">William Smith</h5>
                         <p class="position">CEO Company</p>
@@ -276,7 +276,7 @@ include_once("topo.php");
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s5.png" alt="speaker name">
+                    <img src="../assets/img/speakers/s5.png" alt="speaker name">
                     <div class="info_box">
                         <h5 class="name">Jessica Black</h5>
                         <p class="position">CEO Company</p>
@@ -287,7 +287,7 @@ include_once("topo.php");
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s6.png" alt="speaker name">
+                    <img src="../assets/img/speakers/s6.png" alt="speaker name">
                     <div class="info_box">
                         <h5 class="name">Patricia Stone</h5>
                         <p class="position">CEO Company</p>
@@ -298,7 +298,7 @@ include_once("topo.php");
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s7.png" alt="speaker name">
+                    <img src="../assets/img/speakers/s7.png" alt="speaker name">
                     <div class="info_box">
                         <h5 class="name">Duncan Stan</h5>
                         <p class="position">CEO Company</p>
@@ -309,7 +309,7 @@ include_once("topo.php");
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s8.png" alt="speaker name">
+                    <img src="../assets/img/speakers/s8.png" alt="speaker name">
                     <div class="info_box">
                         <h5 class="name">Patricia Stone</h5>
                         <p class="position">CEO Company</p>
@@ -455,7 +455,7 @@ include_once("topo.php");
                 <tbody>
                 <tr>
                     <td>
-                        <img src="assets/img/cleander/c1.png" alt="event">
+                        <img src="../assets/img/cleander/c1.png" alt="event">
                     </td>
                     <td class="event_date">
                         14
@@ -477,7 +477,7 @@ include_once("topo.php");
                 </tr>
                 <tr>
                     <td>
-                        <img src="assets/img/cleander/c2.png" alt="event">
+                        <img src="../assets/img/cleander/c2.png" alt="event">
                     </td>
                     <td class="event_date">
                         18
@@ -499,7 +499,7 @@ include_once("topo.php");
                 </tr>
                 <tr>
                     <td>
-                        <img src="assets/img/cleander/c3.png" alt="event">
+                        <img src="../assets/img/cleander/c3.png" alt="event">
                     </td>
                     <td class="event_date">
                         22
@@ -533,20 +533,20 @@ include_once("topo.php");
         </div>
         <div class="brand_carousel owl-carousel">
             <div class="brand_item text-center">
-                <img src="assets/img/brands/b1.png" alt="brand">
+                <img src="../assets/img/brands/b1.png" alt="brand">
             </div>
             <div class="brand_item text-center">
-                <img src="assets/img/brands/b2.png" alt="brand">
+                <img src="../assets/img/brands/b2.png" alt="brand">
             </div>
 
             <div class="brand_item text-center">
-                <img src="assets/img/brands/b3.png" alt="brand">
+                <img src="../assets/img/brands/b3.png" alt="brand">
             </div>
             <div class="brand_item text-center">
-                <img src="assets/img/brands/b4.png" alt="brand">
+                <img src="../assets/img/brands/b4.png" alt="brand">
             </div>
             <div class="brand_item text-center">
-                <img src="assets/img/brands/b5.png" alt="brand">
+                <img src="../assets/img/brands/b5.png" alt="brand">
             </div>
         </div>
     </div>
@@ -615,32 +615,32 @@ include_once("topo.php");
                         <ul class="instagram_list">
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c1.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c1.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c2.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c2.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c3.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c3.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c3.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c3.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c2.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c2.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c1.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c1.png" alt="instagram">
                                 </a>
                             </li>
                         </ul>

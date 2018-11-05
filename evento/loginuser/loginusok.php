@@ -8,7 +8,7 @@
 		session_start();
 		$_SESSION["IDuser"] = $retorno->ID;
 		$_SESSION["Usuario"] = true;
-		header("Location:../index/index.php");
+		header("Location:../nav/index.php");
 	}
 		
 	else{
