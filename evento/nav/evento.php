@@ -3,7 +3,7 @@
 ?>
 
 <!--page title section-->
-<section class="inner_cover parallax-window" data-parallax="scroll" data-image-src="assets/img/bg/bg-img.png">
+<section class="inner_cover parallax-window" data-parallax="scroll" data-image-src="../assets/img/bg/bg-img.png">
     <div class="overlay_dark"></div>
     <div class="container">
         <div class="row justify-content-center align-items-center">
@@ -32,7 +32,7 @@
     <div class="container">
 
         <div class="event_box">
-            <img src="assets/img/events/event1.png" alt="event">
+            <img src="../assets/img/events/event1.png" alt="event">
             <div class="event_info">
                 <div class="event_title">
                     Livramento
@@ -59,7 +59,7 @@
         </div>
 
         <div class="event_box">
-            <img src="assets/img/events/event2.png" alt="event">
+            <img src="../assets/img/events/event2.png" alt="event">
             <div class="event_info">
                 <div class="event_title">
                     san francisco Event
@@ -86,7 +86,7 @@
         </div>
 
         <div class="event_box">
-            <img src="assets/img/events/event3.png" alt="event">
+            <img src="../assets/img/events/event3.png" alt="event">
             <div class="event_info">
                 <h5 class="event_title">
                     New york Event
@@ -119,7 +119,7 @@
 
 
 <!--get tickets section -->
-<section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
+<section class="bg-img pt100 pb100" style="background-image: url('../assets/img/bg/tickets.png');">
     <div class="container">
         <div class="section_title mb30">
             <h3 class="title color-light">
@@ -147,7 +147,7 @@
                 <div class="footer_box">
                     <div class="footer_header">
                         <div class="footer_logo">
-                            <img src="assets/img/logo.png" alt="evento">
+                            <img src="../assets/img/logo.png" alt="evento">
                         </div>
                     </div>
                     <div class="footer_box_body">
@@ -186,32 +186,32 @@
                         <ul class="instagram_list">
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c1.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c1.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c2.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c2.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c3.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c3.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c3.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c3.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c2.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c2.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c1.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c1.png" alt="instagram">
                                 </a>
                             </li>
                         </ul>

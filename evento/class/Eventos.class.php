@@ -1,19 +1,20 @@
 <?php
 
-class Compras{
-			private $Id_produtos;
-			private $Id_vendas;
-			private $Quantidade;
-		
+class Eventos{
+			private $ID;
+			private $Nome;
+			private $Detalhe;
+			private $DataeHora;
+			private $cod_user;
 		
 			
 			private $tabela;
 			private $conexao;
 			//utilizamos construct para atribuir valors a los atributos y expessificamos a tabela q vamos acesar 
 			public function __Construct(){
-				$this->conexao = mysqli_connect("127.0.0.1","root","" ,"seumadrugagames")
+				$this->conexao = mysqli_connect("127.0.0.1","root","" ,"evento")
 				or die ("Erro 404");
-				$this->tabela = "compras";
+				$this->tabela = "Eventos";
 			}
 			//fecha a conexao se deixar o banco aberto e elemina da memoria 
 			public function __destruct(){
