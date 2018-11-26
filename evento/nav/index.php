@@ -3,7 +3,7 @@ include_once("topo.php");
 ?>
 <section id="home" class="home-cover">
     <div class="cover_slider owl-carousel owl-theme">
-        <div class="cover_item" style="background: url(../assets/img/bg/slider.png');">
+        <div class="cover_item" style="background: url('../assets/img/bg/slider.png');">
              <div class="slider_content">
                 <div class="slider-content-inner">
                     <div class="container">
@@ -23,7 +23,7 @@ include_once("topo.php");
                 </div>
             </div>
         </div>
-        <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
+        <div class="cover_item" style="background: url('../assets/img/bg/slider.png');">
             <div class="slider_content">
                 <div class="slider-content-inner">
                     <div class="container">
@@ -69,6 +69,7 @@ include_once("topo.php");
             <li class="active" data="0"><span>1</span></li>
             <li  data="1"><span>2</span></li>
             <li  data="2"><span>3</span></li>
+            <li  data="3"><span>4</span></li>
         </ul>
     </div>
 </section>
@@ -551,7 +552,7 @@ include_once("topo.php");
         </div>
     </div>
 </section>
-<section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
+<section class="bg-img pt100 pb100" style="background-image: url('../assets/img/bg/tickets.png');">
     <div class="container">
         <div class="section_title mb30">
             <h3 class="title color-light">
@@ -576,7 +577,7 @@ include_once("topo.php");
                 <div class="footer_box">
                     <div class="footer_header">
                         <div class="footer_logo">
-                            <img src="assets/img/logo.png" alt="evento">
+                            <img src="../assets/img/logo.png" alt="evento">
                         </div>
                     </div>
                     <div class="footer_box_body">

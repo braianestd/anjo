@@ -2,7 +2,7 @@
 session_start();
 include_once("../../class/Carregar.class.php");
 if(!isset($_SESSION['Usuario'])){
-	header ("Location:/loginuser/loginus.php");
+	header ("Location:../loginuser/loginus.php");
 }	
 ?>
 <?php

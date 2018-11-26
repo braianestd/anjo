@@ -3,7 +3,7 @@
 ?>
 
 <!--page title section-->
-<section class="inner_cover parallax-window" data-parallax="scroll" data-image-src="assets/img/bg/inner_cover.png">
+<section class="inner_cover parallax-window" data-parallax="scroll" data-image-src="../assets/img/bg/inner_cover.png">
     <div class="overlay_dark"></div>
     <div class="container">
         <div class="row justify-content-center align-items-center">
@@ -118,7 +118,7 @@
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s1.png" alt="speaker name">
+                    <img src="../assets/img/speakers/s1.png" alt="speaker name">
                     <div class="info_box">
                         <h5 class="name">Patricia Stone</h5>
                         <p class="position">CEO Company</p>
@@ -145,7 +145,7 @@
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s2.png" alt="speaker name">
+                    <img src="../assets/img/speakers/s2.png" alt="speaker name">
                     <div class="info_box">
                         <h5 class="name">James Oliver</h5>
                         <p class="position">CEO Company</p>
@@ -173,7 +173,7 @@
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                    <img src="assets/img/speakers/s3.png" alt="speaker name">
+                    <img src="../assets/img/speakers/s3.png" alt="speaker name">
                     <div class="info_box">
                         <h5 class="name">Carla Banks</h5>
                         <p class="position">CEO Company</p>
@@ -200,7 +200,7 @@
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                  <div class="speaker_img">
-                    <img src="assets/img/speakers/s4.png" alt="speaker name">
+                    <img src="../assets/img/speakers/s4.png" alt="speaker name">
                     <div class="info_box">
                         <h5 class="name">William Smith</h5>
                         <p class="position">CEO Company</p>
@@ -227,7 +227,7 @@
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                  <div class="speaker_img">
-                <img src="assets/img/speakers/s5.png" alt="speaker name">
+                <img src="../assets/img/speakers/s5.png" alt="speaker name">
                 <div class="info_box">
                     <h5 class="name">Jessica Black</h5>
                     <p class="position">CEO Company</p>
@@ -254,7 +254,7 @@
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                <img src="assets/img/speakers/s6.png" alt="speaker name">
+                <img src="../assets/img/speakers/s6.png" alt="speaker name">
                 <div class="info_box">
                     <h5 class="name">Patricia Stone</h5>
                     <p class="position">CEO Company</p>
@@ -281,7 +281,7 @@
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                <img src="assets/img/speakers/s7.png" alt="speaker name">
+                <img src="../assets/img/speakers/s7.png" alt="speaker name">
                 <div class="info_box">
                     <h5 class="name">Duncan Stan</h5>
                     <p class="position">CEO Company</p>
@@ -308,7 +308,7 @@
         <div class="col-md-3 col-sm-6">
             <div class="speaker_box">
                 <div class="speaker_img">
-                <img src="assets/img/speakers/s8.png" alt="speaker name">
+                <img src="../assets/img/speakers/s8.png" alt="speaker name">
                 <div class="info_box">
                     <h5 class="name">Patricia Stone</h5>
                     <p class="position">CEO Company</p>
@@ -351,7 +351,7 @@
 <!--evernt countdown end-->
 
 <!--get tickets section -->
-<section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
+<section class="bg-img pt100 pb100" style="background-image: url('../assets/img/bg/tickets.png');">
     <div class="container">
         <div class="section_title mb30">
             <h3 class="title color-light">
@@ -379,7 +379,7 @@
                 <div class="footer_box">
                     <div class="footer_header">
                         <div class="footer_logo">
-                            <img src="assets/img/logo.png" alt="evento">
+                            <img src="../assets/img/logo.png" alt="evento">
                         </div>
                     </div>
                     <div class="footer_box_body">
@@ -418,32 +418,32 @@
                         <ul class="instagram_list">
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c1.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c1.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c2.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c2.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c3.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c3.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c3.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c3.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c2.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c2.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c1.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c1.png" alt="instagram">
                                 </a>
                             </li>
                         </ul>
