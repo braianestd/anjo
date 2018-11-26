@@ -1,5 +1,5 @@
 <?php
-	include_once("class/Carregar.class.php");
+	include_once("../class/Carregar.class.php");
 	include_once ("topo.php");
 	$objUsuarios = new Usuarios();
 	$resultado = $objUsuarios->listar();
@@ -79,7 +79,7 @@
 
 
 <!--get tickets section -->
-<section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
+<section class="bg-img pt100 pb100" style="background-image: url('../assets/img/bg/tickets.png');">
     <div class="container">
         <div class="section_title mb30">
             <h3 class="title color-light">
@@ -107,7 +107,7 @@
                 <div class="footer_box">
                     <div class="footer_header">
                         <div class="footer_logo">
-                            <img src="assets/img/logo.png" alt="evento">
+                            <img src="../assets/img/logo.png" alt="evento">
                         </div>
                     </div>
                     <div class="footer_box_body">
@@ -146,32 +146,32 @@
                         <ul class="instagram_list">
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c1.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c1.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c2.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c2.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c3.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c3.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c3.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c3.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c2.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c2.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c1.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c1.png" alt="instagram">
                                 </a>
                             </li>
                         </ul>

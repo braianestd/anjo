@@ -11,10 +11,10 @@ if(!isset($_SESSION['Usuario'])){
 
 
 <!--get tickets section -->
-<section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
+<section class="bg-img pt100 pb100" style="background-image: url('../assets/img/bg/tickets.png');">
     <div class="container">
         <div class="section_title mb30">
-<form  method="POST"   action="admin/Usuarios/inserirok.php">
+<form  method="POST"   action="../admin/Usuarios/inserirok.php">
   <div class="form-group">
     <label >Nome</label>
     <input type="text" name="Nome" class="form-control"  placeholder="Nome">
@@ -44,7 +44,7 @@ if(!isset($_SESSION['Usuario'])){
                 <div class="footer_box">
                     <div class="footer_header">
                         <div class="footer_logo">
-                            <img src="assets/img/logo.png" alt="evento">
+                            <img src="../assets/img/logo.png" alt="evento">
                         </div>
                     </div>
                     <div class="footer_box_body">
@@ -82,32 +82,32 @@ Todos los derechos reservados por Braian Ramos.                        </p>
                         <ul class="instagram_list">
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c1.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c1.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c2.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c2.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c3.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c3.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c3.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c3.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c2.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c2.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/cleander/c1.png" alt="instagram">
+                                    <img src="../assets/img/cleander/c1.png" alt="instagram">
                                 </a>
                             </li>
                         </ul>

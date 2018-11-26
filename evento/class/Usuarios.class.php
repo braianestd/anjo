@@ -4,6 +4,7 @@ class Usuarios{
 	private $Nome;
 	private $Email;
 	private $Senha;
+	private $chave;
 	private $Tipo;
 	private $Imagem;
 	private $conexao;
@@ -46,7 +47,7 @@ class Usuarios{
 		$obj->Nome = $res["Nome"];
 		$obj->Email = $res["Email"];
 		$obj->Senha = $res["Senha"];
-		
+		$obj->Imagem = $res["Imagem"];		
 		$arrayObj[] = $obj;
 			
 		}
@@ -63,7 +64,7 @@ class Usuarios{
 			 $objeto->Nome = $resultado['Nome'];
 			 $objeto->Email = $resultado['Email'];
 			 $objeto->Senha = $resultado['Senha'];
-			 
+			 $objeto->Imagem = $resultado['Imagem'];			 
 			 $retUsuar = $objeto;
 		 }
 		 else {
@@ -94,7 +95,7 @@ class Usuarios{
 		//separa as colunas como o banco
 		$resultado = mysqli_fetch_assoc($retorno);
 		if($resultado){ 
-			$objeto = new Usuario();
+			$objeto = new Usuarios();
 			$objeto->ID = $resultado['ID'];	
 			
 			$retUsuar = $objeto;
