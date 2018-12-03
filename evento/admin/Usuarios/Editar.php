@@ -1,6 +1,6 @@
 <?php
    include_once ("../../class/Carregar.class.php");
-   include_once ("../../Bootstrap/HTML/topo.php");	
+   include_once ("../../nav/topo.php");	
    if(!$_GET["id"]){
 	header("location:listar.php");
    }
@@ -68,5 +68,5 @@
 </html>
 </html>
 <?php
-include_once ("../../Bootstrap/HTML/rodape.php");
+include_once ("../../nav/rodape.php");
 ?>

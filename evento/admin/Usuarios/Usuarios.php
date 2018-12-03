@@ -28,6 +28,10 @@ font:bold 15px "Arial";
     <label>Senha</label>
     <input type="password"  name="Senha" class="form-control"  placeholder="Senha">
   </div>
+  <div class="form-group">
+    <label>Imagem</label>
+    <input type="text"  name="Imagem" class="form-control" >
+  </div>
   <input type="submit" class="btn btn-primary" name="Enviar">
 </form>
 </body>
