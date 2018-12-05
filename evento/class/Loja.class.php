@@ -1,8 +1,9 @@
 <?php
 
-class categorias{
+class Loja{
 			private $ID;
 			private $Nome;
+			private $tipo;
 		
 			
 			
@@ -12,7 +13,7 @@ class categorias{
 			public function __Construct(){
 				$this->conexao = mysqli_connect("127.0.0.1","root","" ,"seumadrugagames")
 				or die ("Erro 404");
-				$this->tabela = "categorias";
+				$this->tabela = "loja";
 			}
 			//fecha a conexao se deixar o banco aberto e elemina da memoria 
 			public function __destruct(){
@@ -39,9 +40,10 @@ class categorias{
 				
 				$arrayObj = NULL;
 				while($res = mysqli_fetch_assoc($retorno)){
-					$obj = new Categorias();
+					$obj = new Loja();
 					$obj->ID = $res['ID'];
 					$obj->Nome = $res ['Nome'];
+					$obj->tipo = $res ['tipo'];
 					$arrayObj[] = $obj;
 					
 				}
@@ -53,9 +55,10 @@ class categorias{
 		 //separa as colunas como o banco
 		 $resultado = mysqli_fetch_assoc($retorno);
 		 if($resultado){
-			 $objeto = new Categorias();
+			 $objeto = new Loja();
 			 $objeto->ID = $resultado['ID'];
 			 $objeto->Nome = $resultado['Nome'];
+			 $objeto->tipo = $resultado['tipo'];
 			 
 			 $retUsuar = $objeto;
 		 }
@@ -66,7 +69,7 @@ class categorias{
 	 }
 			  public function editar(){
 		 $sql = "UPDATE $this->tabela SET
-		 Nome = '$this->Nome' WHERE ID=$this->ID";
+		 Nome = '$this->Nome', tipo = '$this->tipo' WHERE ID=$this->ID";
 		 $retorno = mysqli_query($this->conexao,$sql);
 		 return $retorno;
 	 }

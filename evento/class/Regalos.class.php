@@ -1,12 +1,9 @@
 <?php
 
-class Produto{
-			private $Id_categorias;
+class Regalos{
 			private $ID;
 			private $Nome;
 			private $Imagen;
-			private $Preco;
-			private $Descricao;
 			
 	
 		    
@@ -18,7 +15,7 @@ class Produto{
 			public function __Construct(){
 				$this->conexao = mysqli_connect("127.0.0.1","root","" ,"seumadrugagames")
 				or die ("Erro 404");
-				$this->tabela = "produtos";
+				$this->tabela = "regalos";
 			}
 			//fecha a conexao se deixar o banco aberto e elemina da memoria 
 			public function __destruct(){
@@ -34,26 +31,22 @@ class Produto{
 				$this->$key = $value;
 			}
 			public function inserir(){
-				$sql = "INSERT INTO 	$this->tabela(Id_categorias,Nome, Imagen, Preco, Descricao) 
-				values($this->Id_categorias, '$this->Nome', '$this->Imagen', '$this->Preco', '$this->Descricao') ";
+				$sql = "INSERT INTO 	$this->tabela(Nome, Imagen) 
+				values('$this->Nome', '$this->Imagen') ";
 				$retorno = mysqli_query ($this->conexao, $sql);
 				return $retorno;
 			}
 			public function listar ($complemento = ""){
-				$sql = "SELECT $this->tabela.*,categorias.Nome as Categoria FROM 
-				$this->tabela INNER JOIN categorias ON $this->tabela.Id_categorias = categorias.ID ".$complemento;
+				$sql = "SELECT $this->tabela.*,regalos.Nome as Regalos FROM 
+				$this->tabela INNER JOIN regalos ON $this->tabela.Id_regalos = regalos.ID ".$complemento;
 				$retorno = mysqli_query($this->conexao, $sql);
 				
 				$arrayObj = NULL;
 				while($res = mysqli_fetch_assoc($retorno)){
-					$obj = new Produto();
+					$obj = new Regalos();
 					$obj->ID = $res['ID'];
 					$obj-> Nome = $res ['Nome'];
-					$obj-> Imagen = $res ['Imagen'];
-					$obj-> Preco = $res ['Preco'];
-					$obj->Id_categorias =$res['Categoria'];
-					$obj-> Descricao = $res ['Descricao'];
-					
+					$obj-> Imagen = $res ['Imagen'];					
 					$arrayObj[] = $obj;
 					
 				}
@@ -73,12 +66,9 @@ class Produto{
 		 if($resultado){
 			 $objeto = new Produto();
 			 $objeto->ID = $resultado['ID'];
-			 $objeto->Id_categorias = $resultado['Categoria'];
 			 $objeto->Nome = $resultado['Nome'];
 			 $objeto->Imagen = $resultado['Imagen'];
-			 $objeto->Preco = $resultado['Preco'];
-			 $objeto->Descricao = $resultado['Descricao'];
-			 
+
 			 $retUsuar = $objeto;
 		 }
 		 else {
@@ -88,9 +78,9 @@ class Produto{
 	 }
 	 
 	 public function editar(){
-		 $sql = "UPDATE $this->tabela SET Id_categorias = $this->Id_categorias,
+		 $sql = "UPDATE $this->tabela SET 
 		 Nome = '$this->Nome',
-		 Preco= '$this->Preco', Descricao = '$this->Descricao' WHERE ID = $this->ID";
+		 Preco= '$this->Preco' WHERE ID = $this->ID";
 		 $retorno = mysqli_query($this->conexao,$sql);
 		 return $retorno;
 	 }
